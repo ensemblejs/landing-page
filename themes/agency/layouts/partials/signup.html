@@ -1,0 +1,7 @@
+<div class="signup">
+  <div class="call-to-action">{{ with .Site.Params.signup.call }}{{ . }}{{ end }}</div>
+  <!-- <div class="link">{{ with .Site.Params.signup.link }}{{ . }}{{ end }}</div> -->
+  <div class="link">
+    <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.signup.link }}{{ . }}{{ end }}</a>
+  </div>
+</div>

@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Merriweather","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #fff;
 }
 
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -72,7 +72,8 @@ h6 {
 .btn-primary {
     border-color: #55789B;
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
+
     font-weight: 700;
     color: #fff;
     background-color: #55789B;
@@ -123,7 +124,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #55789B;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Cantarell","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -176,23 +177,24 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Cantarell", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    text-transform: lowercase;
     color: #FFF;
 }
 
 
 .brand-pre {
-    font-weight: 100;
+    font-weight: 50;
     display: inline;
 }
 
 .brand-post {
-    font-weight: 600;
+    font-weight: 900;
     display: inline;
 }
 
 /*
-dark purple FBB12F, 312444
+dark purple fd9259, 312444
 
 darkgreen 71A1D1
 
@@ -224,7 +226,7 @@ darkgreen 71A1D1
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Garamond","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -248,7 +250,37 @@ darkgreen 71A1D1
     background-color: #71A1D1;
 }
 
+.logo-container {
+    float: left;
+
+}
 @media(min-width:768px) {
+    .navbar-default .logo {
+        width: 100px;
+        height: 100px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default.navbar-shrink .logo {
+        width: 70px;
+        height: 70px;
+        
+    }
+
+
+    .navbar-default .brand {
+        padding-top: 20px;
+        padding-left: 40px;
+
+    }
+
+    .navbar-default.navbar-shrink .brand {
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -271,7 +303,7 @@ darkgreen 71A1D1
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #FBB12F;
+        background-color: #fd9259;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -285,7 +317,7 @@ header {
     background-attachment: scroll;
     background-image: url(../img/yellow.jpg);
     background-position: center center;
-    background-color: #FBB12F;
+    background-color: #fd9259;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -293,14 +325,20 @@ header {
     -o-background-size: cover;
 }
 
+.logo {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Merriweather","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -308,8 +346,8 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*text-transform: uppercase;*/
+    font-family: "Georgia","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -317,13 +355,13 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 400px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Merriweather","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Cantarell","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -331,14 +369,32 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        /*text-transform: uppercase;*/
+        font-family: "Cantarell","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
 }
 
+.signup {
+    height: 200px;
+    background-color: #55789B;
+    font-family: "Cantarell";
+
+}
+
+.signup .call-to-action {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: white;
+    padding: 35px;
+}
+
+.signup .link .btn-xl {
+    background-color: #71A1D1;
+}
 section {
     padding: 100px 0;
 }
@@ -352,7 +408,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Merriweather","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -431,7 +487,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Merriweather","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -671,7 +727,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #FBB12F;
+    background-color: #fd9259;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -705,28 +761,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -743,7 +799,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -751,7 +807,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -809,7 +865,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Merriweather","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fjalla One","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }

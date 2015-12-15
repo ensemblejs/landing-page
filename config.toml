@@ -53,6 +53,9 @@ theme = "agency"
     subtitle = "One framework"
     buttonText = "Tell me more"
 
+  [params.signup]
+    call = "Want to be an early adopter?"
+    link = "Get in touch"
 
   # Services section
   [params.services]
