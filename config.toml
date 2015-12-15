@@ -56,6 +56,10 @@ theme = "agency"
   [params.signup]
     call = "Want to be an early adopter?"
     link = "Get in touch"
+    [params.signup.modal]
+      cancelText = "Cancel"
+      okText = "Sign me up!"
+      call = "All the cool kids are doing it"
 
   # Services section
   [params.services]
