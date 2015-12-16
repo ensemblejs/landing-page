@@ -203,7 +203,7 @@ darkgreen 71A1D1
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    /*color: #71A1D1;*/
+    /*backcolor: #71A1D1;*/
 }
 
 .navbar-default .navbar-collapse {
@@ -284,7 +284,7 @@ darkgreen 71A1D1
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        /*background-color: transparent;*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -303,7 +303,7 @@ darkgreen 71A1D1
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #fd9259;
+        /*background-color: #fd9259;*/
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -315,7 +315,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/yellow.jpg);
+    /*background-image: url(../img/yellow.jpg);*/
     background-position: center center;
     background-color: #fd9259;
     background-repeat: none;

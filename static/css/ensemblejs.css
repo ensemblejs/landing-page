@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #555;
+}
+
+ul {
+  margin-top: 60px;
+  /*text-align: center;*/
+  list-style-type: none;
+  list-style-position:inside;
+  margin:0;
+  padding:0; 
+  font-size: 25px;
+  color: #888;
+}
+.splash {
+
+}
+
+.signup {
+  height: 100px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+input[type=email] {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 14px;
+  border: 1px #555 solid;
+  width: 300px;
+  /*margin-top: px;*/
+  font-size: 15px;
+  font-family: "Cantarell";
+  border-radius: 10px;
+}
+
+input[type=submit] {
+  /*padding:5px 15px; */
+  margin: 10px;
+  background:#fd9259; 
+  color: #FFFFFF;
+  font-size: 20px;
+  text-transform: uppercase;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  font-family: "Cantarell";
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.logo {
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.brand {
+  font-family: "Cantarell";
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.slogan {
+  /*width: 300px;*/
+  font-size: 30px;
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.features {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+}

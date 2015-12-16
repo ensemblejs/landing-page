@@ -2,7 +2,7 @@
 baseurl = "http://ensemblejs.com/"
 languageCode = "en-us"
 title = "ensemblejs"
-theme = "agency"
+# theme = "agency"
 # Enter your tracking code to enable Google Analytics
 # googleAnalytics = ""
 
@@ -34,15 +34,16 @@ theme = "agency"
   email = "shawry@shawry.com"
 
 
+  brand = "ensemblejs"
+  slogan = "Look behind you, a three headed monkey!"
+  call_to_action = "Subscribe"
   # Navigation
   [params.navigation]
-    brandpre = "ENSEMBLE"
-    brandpost = "JS"
-    services = "About"
+    features = "Features"
     # portfolio = "Portfolio"
     # about = "About"
     team = "Team"
-    contact = "Sign up"
+    signup = "Join Us!"
 
 
   # Hero section
