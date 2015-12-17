@@ -1,7 +1,15 @@
+$body-font: 'Roboto';
+$title-font: 'Cantarell';
+$body-color: #888;
+$title-color: #555;
+$highlight-color: #fd9259;
+$white: #fff;
+
 body {
-  color: #888;
-  font-family: "Roboto";
-  font-weight: 300; }
+  color: $body-color;
+  font-family: $body-font;
+  font-weight: 300;
+}
 
 ul {
   font-size: 25px;
@@ -9,57 +17,63 @@ ul {
   list-style-type: none;
   margin: 0;
   margin-top: 60px;
-  padding: 0; }
+  padding: 0; 
+}
 
 .signup {
   height: 100px;
   padding-top: 40px;
-  text-align: center; }
+  text-align: center;
+}
 
 .email-input {
-  border: 1px #555 solid;
+  border: 1px $title-color solid;
   border-radius: 10px;
   display: inline-block;
-  font-family: "Cantarell";
+  font-family: $title-font;
   font-size: 15px;
   padding-bottom: 10px;
   padding-top: 14px;
-  width: 300px; }
+  width: 300px;
+}
 
 .submit-button {
-  background: #fd9259;
+  background: $highlight-color; 
   border: 0 none;
   border-radius: 5px;
-  color: #fff;
+  color: $white;
   cursor: pointer;
   display: inline-block;
-  font-family: "Cantarell";
+  font-family: $title-font;
   font-size: 20px;
   margin: 10px;
   padding: 10px 20px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .logo {
   height: 300px;
   margin: auto;
   padding: 20px;
-  width: 300px; }
+  width: 300px;
+}
 
 .brand {
-  font-family: "Cantarell";
+  font-family: $title-font;
   font-size: 70px;
   font-weight: 500;
-  text-align: center; }
+  text-align: center;
+}
 
 .slogan {
   font-size: 30px;
   margin: auto;
   padding-top: 20px;
-  text-align: center; }
+  text-align: center;
+}
 
 .features {
   margin-bottom: 100px;
   text-align: center;
-  width: 100%; }
-
-/*# sourceMappingURL=ensemblejs.css.map */
+  width: 100%;
+}
