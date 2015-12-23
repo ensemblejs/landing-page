@@ -7,5 +7,5 @@ task :default do
   Dir.glob('scss/*.scss').each do |file|
     puts `sass #{file}:static/css/#{File.basename(file, '.*')}.css`
   end
-  puts `hugo`
+  puts `hugo server`
 end
