@@ -1,3 +1,9 @@
+.logo-inner {
+  fill: #fd9259; }
+
+.logo-outer {
+  fill: #59009b; }
+
 body {
   color: #888;
   font-family: "Roboto";
@@ -27,7 +33,7 @@ ul {
   width: 300px; }
 
 .submit-button {
-  background: #fd9259;
+  background: #59009b;
   border: 0 none;
   border-radius: 5px;
   color: #fff;

@@ -1,6 +1,13 @@
 <div class="splash">
   <div class="logo">
-    <img src="images/ensemblejs.svg">
+    <svg width="100%" height="100%" viewBox="0 0 288 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+      <g transform="matrix(1,0,0,1,-6.86722,-3.14906)">
+          <path class="logo-outer" d="M262.305,115.475L262.305,72.676C262.305,51.571 244.838,34.462 223.292,34.462L129.647,34.462C129.647,17.168 115.335,3.149 97.68,3.149C80.025,3.149 65.713,17.168 65.713,34.462C65.713,34.629 65.734,34.788 65.737,34.955C47.155,37.877 32.958,53.65 32.958,72.676L32.958,207.538C18.114,210.244 6.867,222.974 6.867,238.3C6.867,255.592 21.18,269.613 38.835,269.613C48.772,269.613 57.649,265.173 63.51,258.206C66.238,258.797 69.064,259.116 71.971,259.116L223.292,259.116C244.838,259.116 262.305,242.008 262.305,220.902L262.305,178.103C279.958,178.103 294.272,164.08 294.272,146.788C294.272,129.493 279.958,115.475 262.305,115.475ZM244.898,138.105L198.636,138.105L164.244,118.656C157.183,114.661 145.625,108.125 138.563,104.13L106.546,86.027L106.546,51.513C112.882,48.339 117.236,41.897 117.236,34.462C117.236,23.901 108.463,15.309 97.68,15.309C86.898,15.309 78.125,23.901 78.125,34.462C78.125,41.897 82.481,48.339 88.813,51.513L88.813,197.875L48.123,221.448C45.358,219.98 42.195,219.145 38.836,219.145C28.053,219.145 19.28,227.74 19.28,238.3C19.28,248.861 28.053,257.454 38.836,257.454C49.618,257.454 58.39,248.861 58.39,238.3C58.39,237.446 58.312,236.614 58.202,235.791L123.307,198.072L138.563,189.448C145.623,185.452 157.181,178.916 164.242,174.923L198.638,155.475L244.9,155.475C248.139,161.678 254.717,165.942 262.305,165.942C273.086,165.942 281.861,157.35 281.861,146.789C281.861,136.226 273.086,127.635 262.305,127.635C254.718,127.635 248.139,131.9 244.898,138.105Z"/>
+          <g transform="matrix(1.77331,0,0,1.73699,-377.237,-556.812)">
+              <path class="logo-inner" d="M309.075,407.569L277.144,426.003C274.763,427.378 272.814,426.253 272.814,423.503L272.814,386.633C272.814,383.883 274.763,382.758 277.144,384.133L309.075,402.569C311.457,403.944 311.457,406.194 309.075,407.569Z"/>
+          </g>
+      </g>
+    </svg>
   </div>
   <div class="brand">
     {{ with .Site.Params.brand }}{{ . }}{{ end }}
@@ -12,9 +19,9 @@
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
       <form action="//ensemblejs.us12.list-manage.com/subscribe/post?u=7d390efaacb8cf9492ac018e4&amp;id=81171d5d1c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        <input type="email" value="" name="EMAIL" class="required email email-input" id="mce-EMAIL">
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7d390efaacb8cf9492ac018e4_81171d5d1c" tabindex="-1" value=""></div>
-        <input type="submit" value="{{ with .Site.Params.call_to_action }}{{ . }}{{ end }}" name="subscribe" id="mc-embedded-subscribe" class="button signup-btn">
+        <input type="submit" value="{{ with .Site.Params.call_to_action }}{{ . }}{{ end }}" name="subscribe" id="mc-embedded-subscribe" class="button submit-button">
         <div id="mc_embed_signup_scroll">
         
           <div class="mc-field-group">

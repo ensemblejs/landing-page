@@ -2,8 +2,17 @@ $body-font: 'Roboto';
 $title-font: 'Cantarell';
 $body-color: #888;
 $title-color: #555;
-$highlight-color: #fd9259;
+$secondary-color: #fd9259;
+$highlight-color: #59009b;
 $white: #fff;
+
+.logo-inner {
+  fill: $secondary-color;
+}
+
+.logo-outer {
+  fill: $highlight-color;
+}
 
 body {
   color: $body-color;
